@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/initialize-state.js"></script>
 </head>
 
 <body>
@@ -168,29 +169,32 @@
                                     <ul>
                                         <li>
                                             <span class="title">Age</span>
-                                            <span class="value">32</span>
+                                            <span id="age_value" class="value"></span>
                                         </li>
 
                                         <li>
                                             <span class="title">Residence</span>
-                                            <span class="value">USA</span>
+                                            <span class="value">Bangkok</span>
                                         </li>
 
                                         <li>
                                             <span class="title">Address</span>
-                                            <span class="value">88 Some Street, Some Town</span>
+                                            <span class="value">889 Soi Ratchadaphisek 3, Din Daeng, Din Daeng, 10400</span>
                                         </li>
 
                                         <li>
                                             <span class="title">e-mail</span>
-                                            <span class="value"><a href="/cdn-cgi/l/email-protection"
-                                                                   class="__cf_email__"
-                                                                   data-cfemail="d9bcb4b8b0b599bca1b8b4a9b5bcf7bab6b4">[email&#160;protected]</a></span>
+                                            <span class="value">
+                                                <a href="/cdn-cgi/l/email-protection"
+                                                   class="__cf_email__"
+                                                   data-cfemail="d9bcb4b8b0b599bca1b8b4a9b5bcf7bab6b4">[email&#160;protected]
+                                                </a>
+                                            </span>
                                         </li>
 
                                         <li>
                                             <span class="title">Phone</span>
-                                            <span class="value">+0123 123 456 789</span>
+                                            <span class="value">+666 4053 6701</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -542,35 +546,87 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2008</h5>
+                                            <h5 class="item-period">2013 - 2016</h5>
                                             <span class="item-company">University of Studies</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Frontend Development</h4>
-                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam
-                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                ante.</p>
+                                            <h4 class="item-title">Mahasarakham University</h4>
+                                            <p>Bachelor of Science in Computer Science, GPA 2.57</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">2007</h5>
-                                            <span class="item-company">University of Studies</span>
+                                            <h5 class="item-period">2010 - 2013</h5>
+                                            <span class="item-company">High School</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">Graphic Design</h4>
-                                            <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis,
-                                                feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu
-                                                pulvinar dolor.</p>
+                                            <h4 class="item-title">Khamkhueankeao Chanubhatham School</h4>
+                                            <p>High School form Khamkhueankeao Chanubhatham GPA 2.86</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div class="white-space-50"></div>
+                                <div class="block-title">
+                                    <h3>Cooperative Education</h3>
+                                </div>
+                                <div class="timeline timeline-second-style clearfix">
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">January 2017 – May 2017</h5>
+                                            <span class="item-company">Digio</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">Digio - Thailand Co., Ltd.,</h4>
+                                            <p>Project : Application for form management in customer storage</p>
+                                            <p>
+                                                Abstract : The application is developed for use in collecting customer
+                                                information conveniently. It is designed to be further developed from
+                                                the ThaiID
+                                                application from the original with only data from reading the cards.
+                                                help to users can
+                                                create form want and can upload and download form to be used in the more
+                                                conveniently.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
+                                <div class="block-title">
+                                    <h3>Activities During Study</h3>
+                                </div>
+                                <div class="timeline timeline-second-style clearfix">
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">ACM-ICPC</h5>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">ACM-ICPC 2016</h4>
+                                            <p>Joining ACM-ICPC 2016 Thailand Northeastern Region Programming
+                                                Contest.</p>
+                                            <p>Joining ACM-ICPC 2016 Thailand National Programming Online Contest.</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">C4C</h5>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">C4C 2015</h4>
+                                            <p>Joining Computer for Community (C4C) camp at ThongThani. School
+                                                Thawatchaburi
+                                                district Roied between 8 to 11 January 2015.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="white-space-50"></div>
                                 <div class="block-title">
                                     <h3>Experience</h3>
                                 </div>
